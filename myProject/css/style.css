@@ -1,0 +1,637 @@
+/**div {
+         border: 1px solid black;
+}
+
+span {
+         border: 1px solid black;
+}**/
+
+
+
+body {
+     margin: 0;
+     overflow-x: hidden;
+}
+
+a:hover {
+     text-decoration: none;
+}
+
+hr {
+       padding: 20px 0px;
+}
+
+.line {
+     border-bottom: 1px solid rgba(229, 0, 70, 0.24);
+}
+
+
+
+
+/******************************************************************Папаха сайта**************************************************************/
+ul.topnav {
+     list-style-type: none;
+     margin: 0 9% 2% 9%;
+     padding: 0;
+     overflow: hidden;
+     background-color: #fff;
+}
+
+ul.topnav li {
+     float: left;
+}
+
+ul.topnav li a {
+     display: inline-block;
+     color: #000;
+     text-align: center;
+     padding: 14px 12px;
+     text-decoration: none;
+     transition: 0.3s;
+     font-size: 16px;
+}
+
+ul.topnav li a.hover-lists:hover {
+     color: #E50046;
+}
+
+ul.topnav li.icon {
+     display: none;
+}
+
+ul.topnav li.location a {
+     font-size: 14px;
+     color: #E50046;
+}
+
+ul.topnav li.button button{
+     margin-top: 10px;
+     width: 120px;
+     height: 35px;
+}
+
+ul.topnav li.button button span{
+     padding: 0 12px;
+}
+
+ul.topnav li.right {
+     float: right;
+     margin-left: 3%;
+}
+
+
+
+
+/****************Записная часть сайта с его декоративной заставкой (изображением родаков с чадом)********************/
+#entry-center {
+      margin:  12% 16%;
+      padding: 20px;
+}
+
+header .main h1 {
+       color: #E50046;
+       font-weight: bold;
+
+}
+
+header .main p {
+      color: #191919;
+      font-size: 14px;
+}
+
+header .main button {
+     width: auto;
+     height: auto;
+     padding: 10px 30px;
+}
+
+header .main .decoration img {
+       width: 500px;
+       height: 400px;
+     align-content: center;
+}
+
+/**************************************************************Сервисная часть***************************************************************/
+
+/*****************************************************Шапка сервисной части******************************************/
+aside .head-1 .head-left {
+        padding: 10px 40px;
+}
+
+aside .head-1 .head-left h2 {
+         font-size: 20px;
+        float: left;
+}
+
+aside .head-1 .head-right {
+        padding: 10px 40px;
+}
+
+aside .head-1 .head-right button {
+        width: 120px;
+        height: 40px;
+        padding: 7px;
+        float: right;
+}
+
+aside .head-1 .head-right button a {
+        color: #fff;
+        font-size: 14px;
+        text-decoration: none;
+}
+
+/*****************************Первая строка (по бутстрапу)************************/
+aside .services-1 .item-services {
+     padding: 10px 0px;
+}
+
+aside .services-1 .item-services ul {
+      list-style-type: none;
+}
+
+.illustration {
+      width: 90px;
+     height: 75px;
+      margin: 30px 10px;
+}
+
+aside .services-1 .item-services ul li h3 {
+        color: #000;
+        font-size: 20px;
+        font-weight: 500;
+}
+
+aside .services-1 .item-services ul li span {
+         color: #8B929E;
+        font-size: 14px;
+}
+
+aside .services-1 .item-services ul li a {
+         color: #E50046;
+         font-size: 12px;
+}
+
+aside .services-1 {
+        padding: 0 0 30px 0;
+}
+
+/*****************************Вторая строка (по бутстрапу)************************/
+
+aside .services-2 .item-services {
+       padding: 10px 0px;
+}
+
+aside .services-2 .item-services ul {
+        list-style-type: none;
+}
+
+aside .services-2 .item-services ul li h3 {
+        color: #000;
+        font-size: 20px;
+        font-weight: 500;
+}
+
+aside .services-2 .item-services ul li span {
+         color: #8B929E;
+      font-size: 14px;
+}
+
+aside .services-2 .item-services ul li a span {
+         color: #E50046;
+       font-size: 12px;
+}
+
+
+
+/********************************************Пункт "Специалисты"*******************************************************/
+/**********************Шапка пункта "Специалисты"**************************/
+aside .head-2 .head-left {
+     padding: 10px 40px;
+
+}
+
+aside .head-2 .head-left h2 {
+        font-size: 20px;
+        float: left;
+}
+
+aside .head-2 .head-right {
+        padding: 10px 40px;
+}
+
+aside .head-2 .head-right button {
+       width: 160px;
+       height: 40px;
+      padding: 7px;
+      float: right;
+}
+
+aside .head-2 .head-right button a {
+       color: #fff;
+       font-size: 14px;
+       text-decoration: none;
+}
+
+/**********************Первая строка (по бутстрапу)*****************************/
+aside .team-1 .item-team {
+        padding: 0px 0px;
+}
+
+aside .team-1 .item-team ul {
+         list-style-type: none;
+}
+
+.doctor {
+        width: 150px;
+        height: 150px;
+        margin: 30px 10px;
+}
+
+.position {
+        color: #000;
+       font-weight: normal;
+}
+
+aside .team-1 .item-team ul li h3 {
+       color: #000;
+       font-size: 18px;
+       font-weight: 500;
+}
+
+aside .team-1 .item-team ul li {
+         color: #8B929E;
+         font-size: 14px;
+}
+
+aside .team-1 .item-team ul li a span {
+       font-size: 12px;
+       color: #E50046;
+       font-weight: 500;
+}
+
+
+/**********************Вторая строка (по бутстрапу)*****************************/
+aside .team-2 .item-team {
+         padding: 0px 0px;
+}
+
+aside .team-2 .item-team ul {
+         list-style-type: none;
+}
+
+.doctor {
+       width: 150px;
+      height: 150px;
+       margin: 30px 10px;
+}
+
+.position {
+        color: #000;
+        font-weight: normal;
+}
+
+aside .team-2 .item-team ul li h3 {
+         color: #000;
+         font-size: 18px;
+         font-weight: 500;
+}
+
+aside .team-2 .item-team ul li {
+       color: #8B929E;
+       font-size: 14px;
+}
+
+aside .team-2 .item-team ul li a span {
+        color: #E50046;
+        font-size: 12px;
+        font-weight: 500;
+}
+
+
+/****************************************************************************Пункт "Отзывы"*********************************************************************************/
+/*******************************Шапка данного пункта***************************************/
+aside .head-3 {
+        padding: 10px 30px;
+}
+
+aside .head-3 .headline h2 {
+        font-size: 20px;
+        float: left;
+}
+
+aside .buttons button {
+       width: 30px;
+       height: 30px;
+       border-radius: 20px;
+}
+
+.previous {
+       width: 12px;
+       margin-bottom: 5px;
+}
+
+.next {
+       width: 12px;
+       margin-bottom: 5px;
+}
+
+aside .head-3 .head-right button{
+       width: 130px;
+       height: 30px;
+       float: right;
+}
+
+aside .head-3 .head-right button a {
+        color: #fff;
+        font-size: 16px;
+}
+
+
+/**********************Пункт с отзывами пользователей*********************************/
+
+/* styles for hidden text */
+[data-hidden="hidden-text"] {
+  animation-name: hidden;
+  animation-duration: .5s;
+}
+
+@keyframes hidden {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
+}
+
+button {
+     width: 50px;
+     height: 30px;
+     border-radius: 20px;
+        font-size: 15px;
+        border-radius: 30px;
+         color: #fff;
+         background: #E50046;
+        border: none;
+}
+
+.main-reviews{
+     width: 90%;
+     height: 400px;
+     margin: 0 auto;
+     overflow: hidden;
+}
+
+.d-none {
+         display: none;
+}
+
+.reviews {
+     background: pink;
+     width: 5000px;
+     position: relative;
+     left: 0;
+     transition: .7s;
+}
+
+.slider-block {
+        padding: 10px 20px;
+         width: 460px;
+         height: 350px;
+         float: left;
+}
+
+.reviews .slide {
+         width: 100%;
+         height: 100%;
+         padding: 10px;
+         border: 1px solid #8B929E;
+        border-radius: 20px;
+}
+
+.reviews .slide .header-slider {
+        padding: 20px 0px;
+         width: auto;
+         height: 110px;
+}
+
+.reviews .slide .header-slider ul li {
+        display: inline-block;
+         padding: 0px 10px;
+}
+
+.reviews .slide .header-slider ul li .avatar {
+         width: 60px;
+         height: 60px;
+     float: left;
+}
+
+.reviews .slide .header-slider ul .instagram-container {
+        float: right;
+        color: #E50046;
+        font-weight: 700;
+}
+
+.reviews .slide .header-slider ul .instagram-container span{
+         border-bottom: 1px solid rgba(229, 0, 70, 0.24);
+         font-size: 12px;
+
+}
+
+.name {
+        color: #000;
+         font-size: 14px;
+        font-weight: 600;
+}
+
+.date {
+       color: grey;
+         font-size: 10px;
+}
+
+.reviews .slide .text-slider {
+        padding: 20px 10px 20px 50px;
+         font-size: 12px;
+         font-weight: 500;
+}
+
+#more {
+        display: none;
+
+}
+
+.reviews .slide .text-slider a {
+        font-size: 12px;
+         color: #E50046;
+         font-weight: 1000;
+}
+
+.slider-span {
+     color: #E50046;
+     font-size: 12px;
+     font-weight: 1000;
+}
+
+#span {
+     background: none;
+     color: #E50046;
+     height: 1px;
+}
+
+
+
+
+/*******************************************************************************Footer****************************************************************************************************************************/
+footer .row-footer .logo-kidney img {
+     width:  80px;
+     height: 30px;
+}
+
+.row-footer {
+     padding: 150px 100px 20px 100px;
+
+}
+
+footer .row-footer .logo-kidney {
+     float: left;
+}
+
+footer .row-footer .author .author-right {
+     float: right;
+}
+
+footer .row-footer .author .author-right .footer-instagram {
+     color: #E50046;
+     font-size: 12px;
+     font-weight: 700;
+     border-bottom: 1px solid rgba(229, 0, 70, 0.24);
+}
+
+footer .row-footer .author .author-right .footer-author {
+     color: #000;
+     font-size: 12px;
+}
+
+/******************************************************************************Адаптив*****************************************************************************************************************************/
+
+@media screen and (max-width: 1200px) {
+
+     ul.topnav li a {
+          display: inline-block;
+          color: #000;
+          text-align: center;
+          padding: 14px 5px;
+          text-decoration: none;
+          transition: 0.3s;
+          font-size: 15px;
+}
+
+     ul.topnav li.button button{
+          margin-top: 10px;
+          width: 100px;
+          height: 35px;
+}
+     ul.topnav li.button button img {
+          display: none;
+     }
+
+     ul.topnav li.right {
+          margin-left: 2%;
+}
+
+     ul.topnav li.location {
+          font-size: 12px;
+     }
+
+     ul.topnav li.location img {
+          display: none;
+     }
+
+     #children {
+          align-content: center;
+          width: 300px;
+          height: 300px;
+     }
+
+     header .main h1 {
+          font-size: 21px;
+     }
+
+     header .main p {
+          font-size: 12px;
+     }
+}
+
+
+@media screen and (max-width: 1000px) {
+     ul.topnav li:not(:first-child){display: none;}
+     ul.topnav li.icon{
+          float: right;
+          display: inline-block;
+     }
+}
+
+@media screen and (max-width: 1000px) {
+     ul.topnav.responasive {
+          position: relative;
+     }
+     ul.topnav.responsive li.icon{
+          position: absolute;
+          right: 0;
+          top: 0;
+     }
+
+     ul.topnav.resposive li{
+          float: none;
+          display: inline;
+     }
+
+     ul.topnav.responsive li a {
+          display: block;
+          text-align: left;
+     }
+}
+
+
+@media screen and (max-width: 768px) {
+     .entry {
+          padding: 45px;
+     }
+
+     .decoration {
+          padding: 0 25%;
+     }
+
+     .head-right {
+          display: none;
+     }
+
+     ul.topnav li.right {
+     margin-left: 2%;
+}
+}
+
+@media screen and (max-width: 576px) {
+
+     .blocks {
+          display: block;
+     }
+
+     .decoration {
+          height: 350px;
+          top: 30px;
+          padding: 0 40px;ы
+     }
+
+     #children {
+          height: 300px;
+     }
+
+     .entry {
+          padding: none;
+     }
+
+     .entry-center {
+     }
+
+}
+
